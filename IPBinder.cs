@@ -21,7 +21,7 @@ namespace JucktnichtTools
                 __instance.NetworkingIdentity.SetIPv4Addr(__instance.numericalIP, __instance.port);
                 __instance.ip = AppCFG.connect_to;
                 Console.WriteLine($"app.cfg connect_to was set. Using it as Listen IP.\r\nListening on {AppCFG.connect_to}:{__instance.port}");
-                Console.WriteLine("Bug-Report: ");
+                Console.WriteLine("Bug-Report: https://github.com/juckthaltnicht/Foundry-IPBinder/issues");
                 Console.WriteLine("Made by Juckthaltnicht");
 
             }
